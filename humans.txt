@@ -1,13 +1,12 @@
-Welcome to my humans.txt or, more realistically, human.txt. 👋
+Greetings, Humans!
 
-This site is by me: Paul. It runs on Blot (blot.im) which is excellent.
+This site, Rake Routes, is by me: Stephen Ball. Hello!
 
-I have a much cooler humans.txt on my portfolio: paulisaweso.me/humans.txt.
+It runs on Blot (blot.im) which is excellent.
 
-To know more (about me) head to /about.
+Rake Routes was originally about Ruby and Rails but has since grown to be my
+personal place to talk about programming in general.
 
-To say hi, you can email: me at omg dot lol.
+You can follow me on Twitter! @MutableBall
 
----
-
-Stay rad. ✌️
+You can email me: sdball@gmail.com

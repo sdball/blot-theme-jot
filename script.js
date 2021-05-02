@@ -146,7 +146,7 @@ arguments)}}(b))};e.init();p.Mousetrap=e;"undefined"!==typeof module&&module.exp
 
   // For the luls
   console.log(
-    '%cpaul.af',
+    '%csdball',
     'display: inline-block; padding: .5rem; background-color: #000; color: #fff; border-radius: .25rem; font-family: monospace;'
   )
 

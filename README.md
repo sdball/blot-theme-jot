@@ -20,35 +20,7 @@ This is the [theme][blog] for [Blot]. It's a fork of [Paul Esch-Laurent's blot t
 
 ## Modifications
 
-- None (yet)
-
-## Screenshots
-
-![Index Light](/screenshots/index-light.png)
-
-![Index Dark](/screenshots/index-dark.png)
-
-![Post Light](/screenshots/post-light.png)
-
-![Post Dark](/screenshots/post-dark.png)
-
-## [Scripts](/scripts)
-
-- [`deploy.sh`](/scripts/deploy.sh)
-
-    In Blot themes are edited in local directories and changes are immediately
-    live on the site. To separate development from production this theme has a
-    [`deploy.sh`](/scripts/deploy.sh) script to copy files from the development
-    directory (an available but not active theme) to the production directory
-    (an available and active theme). Once copied to the production folder the
-    changes are live.
-
-    This approach allows using Blot's template preview function to preview the
-    development theme before copying the changes to the production theme.
-
-- [`screenshots.sh`](/scripts/screenshots.sh)
-
-    Generate the screenshots featured in this README.
+- Theme picker in header
 
 ## Installation
 
@@ -56,11 +28,21 @@ This is the [theme][blog] for [Blot]. It's a fork of [Paul Esch-Laurent's blot t
 2. Rename the fork to jot-prod
 3. Fork the "Index" theme again
 4. Rename the fork to jot-dev
-5. Edit both themes locally
-6. Replace the local version of the dev theme with this git project
-7. Update the deploy script to know the correct production theme directory e.g. `../jot-prod`
-8. Run the deploy script to update the production theme
-9. Activate the jot-prod theme
+5. Edit both themes locally from blot.im
+6. Replace both directories with git clones of this theme
+7. On the "development" theme use the "main" branch
+8. On the "production" theme use the "release" branch
+9. Activate the "Jot - Production" theme
+
+Workflow
+- Edit the development clone branch
+- Preview in blot.im using the "Jot" theme to preview
+- Commit to main
+
+Releasing
+- Merge main to release
+- Git fetch/update the directory of the "Jot - Production" theme to the latest release branch
+- Blot will immediately pick up the changes and apply to the production site
 
 ## License
 

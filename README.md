@@ -20,23 +20,7 @@ This is the [theme][blog] for [Blot]. It's a fork of [Paul Esch-Laurent's blot t
 
 ## Modifications
 
-- None (yet)
-
-## Screenshots
-
-![Index Light](/screenshots/index-light.png)
-
-![Index Dark](/screenshots/index-dark.png)
-
-![Post Light](/screenshots/post-light.png)
-
-![Post Dark](/screenshots/post-dark.png)
-
-## [Scripts](/scripts)
-
-- [`screenshots.sh`](/scripts/screenshots.sh)
-
-    Generate the screenshots featured in this README.
+- Theme picker in header
 
 ## Installation
 

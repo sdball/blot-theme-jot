@@ -335,10 +335,10 @@ p {
 }
 
 /*
-Atom One Light by Daniel Gamage
+(Atom One Light by Daniel Gamage (edited to yellow background and add border)
 Original One Light Syntax theme from https://github.com/atom/one-light-syntax
 */
-.hljs { display: block; overflow-x: auto; color: #383a42; background: #fafafa; }
+.hljs { display: block; overflow-x: auto; color: #383a42; background: #fafeee; border: 2px solid #bbb; }
 .hljs-comment, .hljs-quote { color: #a0a1a7; font-style: italic; }
 .hljs-doctag, .hljs-keyword, .hljs-formula { color: #a626a4; }
 .hljs-section, .hljs-name, .hljs-selector-tag, .hljs-deletion, .hljs-subst { color: #e45649; }
@@ -356,7 +356,7 @@ Atom One Dark by Daniel Gamage
 Original One Dark Syntax theme from https://github.com/atom/one-dark-syntax
 */
 html[data-theme="dark"] .hljs,
-html[data-theme="amoled"] .hljs { display: block; overflow-x: auto; color: #abb2bf; background: #282c34; }
+html[data-theme="amoled"] .hljs { display: block; overflow-x: auto; color: #abb2bf; background: #282c34; border: none; }
 html[data-theme="dark"] .hljs-comment, html[data-theme="dark"] .hljs-quote,
 html[data-theme="amoled"] .hljs-comment, html[data-theme="amoled"] .hljs-quote { color: #5c6370; font-style: italic; }
 html[data-theme="dark"] .hljs-doctag, html[data-theme="dark"] .hljs-keyword, html[data-theme="dark"] .hljs-formula,
@@ -381,7 +381,7 @@ html[data-theme="dark"] .hljs-link,
 html[data-theme="amoled"] .hljs-link { text-decoration: underline; }
 
 @media (prefers-color-scheme: dark) {
-  html:not([data-theme="deloma"]):not([data-theme="light"]) .hljs { display: block; overflow-x: auto; color: #abb2bf; background: #282c34; }
+  html:not([data-theme="deloma"]):not([data-theme="light"]) .hljs { display: block; overflow-x: auto; color: #abb2bf; background: #282c34; border: none;}
   html:not([data-theme="deloma"]):not([data-theme="light"]) .hljs-comment, html:not([data-theme="deloma"]):not([data-theme="light"]) .hljs-quote { color: #5c6370; font-style: italic; }
   html:not([data-theme="deloma"]):not([data-theme="light"]) .hljs-doctag, html:not([data-theme="deloma"]):not([data-theme="light"]) .hljs-keyword, html:not([data-theme="deloma"]):not([data-theme="light"]) .hljs-formula { color: #c678dd; }
   html:not([data-theme="deloma"]):not([data-theme="light"]) .hljs-section, html:not([data-theme="deloma"]):not([data-theme="light"]) .hljs-name, html:not([data-theme="deloma"]):not([data-theme="light"]) .hljs-selector-tag, html:not([data-theme="deloma"]):not([data-theme="light"]) .hljs-deletion, html:not([data-theme="deloma"]):not([data-theme="light"]) .hljs-subst { color: #e06c75; }
